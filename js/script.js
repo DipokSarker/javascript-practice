@@ -1,4 +1,6 @@
-console.log(" I am first line");
-console.log("I am second line");
-document.write("JS IS CONNECTED");
-//comment
+const roll_numbers = [3, 1, 65, 22, 30];
+
+console.log(roll_numbers.sort (function(a, b){
+
+    return b - a;
+}));
